@@ -5,4 +5,4 @@ allowBuilds:
   electron-winstaller: true
 minimumReleaseAgeExclude:
   - vite-plus
-  - "@voidzero-dev/*"
+  - '@voidzero-dev/*'
