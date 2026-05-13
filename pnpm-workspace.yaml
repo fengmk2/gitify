@@ -3,3 +3,6 @@ allowBuilds:
   '@primer/primitives': false
   electron: true
   electron-winstaller: true
+minimumReleaseAgeExclude:
+  - vite-plus
+  - "@voidzero-dev/*"
