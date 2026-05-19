@@ -3,3 +3,9 @@ allowBuilds:
   '@primer/primitives': false
   electron: true
   electron-winstaller: true
+blockExoticSubdeps: false
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - caniuse-lite
