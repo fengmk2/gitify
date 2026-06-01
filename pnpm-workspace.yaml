@@ -3,3 +3,25 @@ allowBuilds:
   '@primer/primitives': false
   electron: true
   electron-winstaller: true
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - '@swc/core'
+  - '@tailwindcss/oxide'
+  - electron
+  - electron-winstaller
+  - esbuild
+  - unrs-resolver
+overrides:
+  react-is: 19.2.6
+minimumReleaseAge: 60
+minimumReleaseAgeExclude:
+  - vite-plus
+  - vite
+  - vitest
+  - '@voidzero-dev/*'
+  - '@oxc-project/*'
+  - '@oxlint/*'
+  - oxlint
+  - oxfmt
+  - oxlint-tsgolint
+blockExoticSubdeps: false
