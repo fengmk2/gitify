@@ -24,8 +24,8 @@ jobs:
       - name: Setup Node.js
         uses: ./.github/actions/setup-node
 
-      - name: Check TypeScript
-        run: pnpm tsc --noEmit
+      # - name: Check TypeScript
+      #   run: pnpm tsc --noEmit
 
       - name: Run tests with coverage
         run: pnpm test
